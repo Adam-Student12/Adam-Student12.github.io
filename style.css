@@ -186,6 +186,7 @@ a {
     overflow-x: auto; */
     flex-wrap: wrap;
     word-break: break-word;
+    width: auto;
     background-color: #dadada/*#b3b1b3*/;
     padding: 6px 8px;
     border: 1.6px solid #9b9b9b;
@@ -206,7 +207,7 @@ a {
     color: #5074e0;
 }
 [highlight-color="green"] {
-    color: ;
+    color: #0b6d20;
 }
 [highlight-color="gray"] {
     color: #868686;
