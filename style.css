@@ -180,6 +180,7 @@ a {
 } */
 .code {
     display: inline-block;
+    position: relative;
     /* width: 250px;
     overflow: hidden;
     overflow-y: hidden;
