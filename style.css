@@ -195,6 +195,11 @@ a {
     box-shadow: 2px 2px 4px #a4a4a4;
     margin-top: 5px;
 }
+[wrap="break-word"] {
+    display: inline-block;
+    flex-wrap: wrap;
+    word-break: break-word;
+}
 [highlight-color="purple"] {
     color: #a32b53;
 }
@@ -208,7 +213,7 @@ a {
     color: #5074e0;
 }
 [highlight-color="green"] {
-    color: #0b6d20;
+    color: ;
 }
 [highlight-color="gray"] {
     color: #868686;
