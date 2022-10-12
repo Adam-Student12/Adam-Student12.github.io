@@ -12,6 +12,9 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: "Rubik", san-serif;
+    overflow: auto;
+    y-overflow: scroll;
+    x-overflow: scroll;
 }
 html {
     scroll-behavior: smooth;
