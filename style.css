@@ -185,8 +185,17 @@ a {
     overflow: hidden;
     overflow-y: hidden;
     overflow-x: auto; */
+    overflow-wrap: break-word;
     flex-wrap: wrap;
-    word-break: break-word;
+    /* word-break: break-word; */
+    word-break: break-all;
+    /* white-space: normal; */
+    /* white-space: nowrap;
+    text-overflow: ellipsis;
+    hyphens: auto; */
+    overflow: auto;
+    y-overflow: hidden;
+    x-overflow: scroll;
     width: auto;
     background-color: #dadada/*#b3b1b3*/;
     padding: 6px 8px;
