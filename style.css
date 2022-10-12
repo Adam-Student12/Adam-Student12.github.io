@@ -201,6 +201,7 @@ a {
     box-shadow: 2px 2px 4px #a4a4a4;
     margin-top: 5px;
 }
+
 ::-webkit-scrollbar {
   width: 1px;
 }
@@ -213,6 +214,7 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: #555555;
 }
+
 [wrap="break-word"] {
     display: inline-block;
     flex-wrap: wrap;
