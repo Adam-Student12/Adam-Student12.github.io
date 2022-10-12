@@ -203,16 +203,21 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 1px;
+  width: 10px;
+  height: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background-color: #f1f1f1;
+  border: 1px solid #9b9b9b;
+  border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #888888;
+  background-color: #888888;
+  border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #555555;
+  background-color: #555555;
+  border: 1px solid #4169E1;
 }
 
 [wrap="break-word"] {
