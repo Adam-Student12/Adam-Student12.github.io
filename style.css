@@ -181,10 +181,6 @@ a {
 .code {
     display: inline-block;
     position: relative;
-    /* width: 250px;
-    overflow: hidden;
-    overflow-y: hidden;
-    overflow-x: auto; */
     overflow-wrap: break-word;
     flex-wrap: wrap;
     /* word-break: break-word; */
@@ -193,16 +189,29 @@ a {
     /* white-space: nowrap;
     text-overflow: ellipsis;
     hyphens: auto; */
+    /* width: auto; */
+    width: 350px;
     overflow: auto;
     y-overflow: hidden;
     x-overflow: scroll;
-    width: auto;
     background-color: #dadada/*#b3b1b3*/;
     padding: 6px 8px;
     border: 1.6px solid #9b9b9b;
     border-radius: 4px;
     box-shadow: 2px 2px 4px #a4a4a4;
     margin-top: 5px;
+}
+::-webkit-scrollbar {
+  width: 1px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
 }
 [wrap="break-word"] {
     display: inline-block;
