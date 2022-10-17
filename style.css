@@ -79,6 +79,11 @@ html {
     margin-top: -5px !important;
 }
 
+/* Tablet View */
+@media screen and (max-width: 748px) {
+    
+}
+
 .header {
     display: block;
     position: relative;
