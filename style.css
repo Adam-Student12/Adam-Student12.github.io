@@ -206,7 +206,6 @@ a {
 }
 
 ::-webkit-scrollbar {
-    ellipse(55, 45, 5, 5)
     width: 10px;
     height: 10px;
 }
