@@ -81,7 +81,21 @@ html {
 
 /* Tablet View */
 @media screen and (max-width: 748px) {
-    
+    .navbar {
+        
+    }
+    .navbar div a {
+        
+    }
+    .nav-container {
+        
+    }
+    .navbar .nav-link {
+        
+    }
+    .navbar .link {
+        
+    }
 }
 
 .header {
