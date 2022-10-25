@@ -1,21 +1,12 @@
 let navbar = document.getElementById("navbar");
 let navicon = document.getElementById("navicon");
 
-navbar.onclick = function (e) {
-    if () {
-        
-    } else if () {
-        
-    } else {
-        
-    }
-}
 navicon.onclick = function (e) {
-    if () {
-        
-    } else if () {
-        
+    if (navbar.style.height === "50px") {
+        navicon.innerHTML = "menu";
+    } else if (navbar.style.height === "250px") {
+        navicon.innerHTML = "close";
     } else {
-        
+        navicon.innerHTML = "menu";
     }
 }
