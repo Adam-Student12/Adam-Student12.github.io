@@ -14,15 +14,18 @@
     </head>
     <body>
         <div class="navbar" id="navbar">
-            <div><a href="./index.html">LearnCoding</a></div>
-            <span class="icon material-icons md-2-rem" id="navicon">
-                menu
-            </span>
-            <div class="nav-container" id="navmenu">
-                <a href="./resources.html" class="nav-link link"><span>Resources</span></a>
-                <a href="./videos.html" class="nav-link link"><span>Videos</span></a>
-                <a href="./about.html" class="nav-link link"><span>About</span></a>
-            </div>
+            <div><a class="logo" href="./index.html">LearnCoding</a></div>
+            <span class="icon material-icons md-1-rem hidden-from-desktop" id="navicon">menu</span>
+            <!-- <div class="nav-container" id="navmenu"> -->
+                <!-- <a href="./resources.html" class="nav-link link"><span>Resources</span></a> -->
+                <!-- <a href="./videos.html" class="nav-link link"><span>Videos</span></a> -->
+                <!-- <a href="./about.html" class="nav-link link"><span>About</span></a> -->
+            <!-- </div> -->
+        </div>
+        <div class="nav-container" id="navmenu">
+            <a href="./resources.html" class="nav-link link">Resources</a>
+            <a href="./videos.html" class="nav-link link">Videos</a>
+            <a href="./about.html" class="nav-link link">About</a>
         </div>
         <header class="header">
             <h2>Learn Coding</h2>
@@ -53,7 +56,7 @@
                 <input type="password" placeholder="Password" class="password" autocomplete="current-password" required />
                 <button class="primary-btn" type="submit">Submit</button>
             </form>
-            <div>Made with ❤ by Adam</div>
+            <div class="space">Made with ❤ by Adam</div>
         </footer>
 
         <script src="./script.js"></script>
