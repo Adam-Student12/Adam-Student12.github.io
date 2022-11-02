@@ -7,15 +7,25 @@
         <meta name="charset" content="UTF-8" />
         <meta name="theme-color" content="#4169E1" />
         <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     </head>
     <body>
-        <div class="navbar">
-            <div><a href="./index.html">LearnCoding</a></div>
-            <div class="nav-container">
-                <a href="./resources.html" class="nav-link link"><span>Resources</span></a>
-                <a href="./videos.html" class="nav-link link"><span>Videos</span></a>
-                <a href="./about.html" class="nav-link link"><span>About</span></a>
-            </div>
+        <div class="navbar" id="navbar">
+            <div><a class="logo" href="./index.html">LearnCoding</a></div>
+            <span class="icon material-icons md-1-rem hidden-from-desktop" id="navicon">menu</span>
+            <!-- <div class="nav-container" id="navmenu"> -->
+                <!-- <a href="./resources.html" class="nav-link link"><span>Resources</span></a> -->
+                <!-- <a href="./videos.html" class="nav-link link"><span>Videos</span></a> -->
+                <!-- <a href="./about.html" class="nav-link link"><span>About</span></a> -->
+            <!-- </div> -->
+        </div>
+        <div class="nav-container" id="navmenu">
+            <a href="./resources.html" class="nav-link link"><span>Resources</span></a>
+            <a href="./videos.html" class="nav-link link"><span>Videos</span></a>
+            <a href="./about.html" class="nav-link link"><span>About</span></a>
         </div>
         <header class="header">
             <h2>Learn coding through watching YouTube videos!</h2>
