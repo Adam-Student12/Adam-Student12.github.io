@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap");
 
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,12 +10,15 @@
 body {
     margin: 0;
     padding: 0;
+    border: 0;
     width: 100vw;
+    /* height: 100%; */
     height: 100vh;
     font-family: "Rubik", san-serif;
     overflow: auto;
-    y-overflow: scroll;
+    /* x-overflow: hidden; */
     x-overflow: scroll;
+    y-overflow: scroll;
 }
 html {
     scroll-behavior: smooth;
