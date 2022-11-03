@@ -7,7 +7,7 @@
     /* background-color: #10101045; */
 }
 
-body {
+html, body {
     margin: 0;
     padding: 0;
     border: 0;
