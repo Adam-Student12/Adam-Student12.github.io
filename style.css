@@ -268,7 +268,7 @@ html {
 
 
 /* Other View */
-@media screen and (min-width: 64px) and (max-width: 320px) {
+@media screen and (min-width: 32px) and (max-width: 320px) {
     .navbar {
         max-height: 50px;
         height: 50px;
@@ -443,6 +443,7 @@ a {
     text-overflow: ellipsis;
     hyphens: auto; */
     /* width: auto; */
+    max-width: 100%;
     width: 350px;
     overflow: auto;
     y-overflow: hidden;
@@ -545,13 +546,15 @@ body::-webkit-scrollbar-thumb:active {
 /* Mobile View */
 @media screen and (min-width: 320px) and (max-width: 640px) {
     .code {
+        max-width: 100%;
         width: 300px;
     }
 }
 
 /* Other View */
-@media screen and (min-width: 64px) and (max-width: 320px) {
+@media screen and (min-width: 32px) and (max-width: 320px) {
     .code {
+        max-width: 100%;
         width: 300px;
     }
 }
@@ -563,6 +566,7 @@ body::-webkit-scrollbar-thumb:active {
     border: 3px solid #efefef;
     /* border: 3px solid #28a4ec; */
     border-radius: 5px;
+    max-width: 100%;
     width: auto;
     padding: 10px 20px;
     margin: 10px;
@@ -590,6 +594,7 @@ body::-webkit-scrollbar-thumb:active {
     color: #ffffff;
     border: 3px solid #efefef;
     border-radius: 5px;
+    max-width: 100%;
     width: auto;
     padding: 10px 20px;
     margin: 10px;
@@ -638,11 +643,13 @@ body::-webkit-scrollbar-thumb:active {
 /* Mobile View */
 @media screen and (min-width: 320px) and (max-width: 640px) {
     .email {
+        max-width: 100%;
         width: auto;
         padding: 10px 10px;
         margin: 5px;
     }
     .password {
+        max-width: 100%;
         width: auto;
         padding: 10px 10px;
         margin: 5px;
@@ -656,13 +663,15 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 /* Other View */
-@media screen and (min-width: 64px) and (max-width: 320px) {
+@media screen and (min-width: 32px) and (max-width: 320px) {
     .email {
+        max-width: 100%;
         width: auto;
         padding: 10px 10px;
         margin: 5px;
     }
     .password {
+        max-width: 100%;
         width: auto;
         padding: 10px 10px;
         margin: 5px;
