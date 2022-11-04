@@ -266,6 +266,69 @@ html {
     }
 }
 
+
+/* Other View */
+@media screen and (min-width: 64px) and (max-width: 320px) {
+    .navbar {
+        max-height: 50px;
+        height: 50px;
+        z-index: 25;
+        transition: all 0.3s;
+    }
+    /* .navbar div .logo {} */
+    .nav-container {
+        display: block;
+        /* position: absolute; */
+        position: absolute;
+        top: 0;
+        /* top: 50px; */
+        width: 100%;
+        /* max-height: 140px; */
+        padding-top: 40px;
+        max-height: 50px;
+        height: 200px;
+        z-index: 10;
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition: all 0.3s;
+    }
+    .nav-container .nav-link {
+        /* display: block; */
+        width: 100%;
+        /* text-align: center; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        transition: all 0.3s;
+    }
+    .nav-link:first-child {
+        margin-top: 35px;
+        transition: all 0.3s;
+    }
+
+    .icon {
+        display: inline-block !important;
+        position: absolute;
+        right: 10px;
+        /* right: 20px; */
+        margin-top: 9px;
+        background-color: #c7cbcc;
+        color: #5a5a5a;
+        width: 34px;
+        height: 32px;
+        border-radius: 4px;
+        text-align: center;
+        vertical-align: bottom;
+        z-index: 50;
+        transition: all 0.3s;
+    }
+    .icon:hover {
+        box-shadow: 0 0 0 4px #5a5a5a99;
+        transform: scale(0.9);
+        transition: all 0.3s;
+    }
+}
+
 .header {
     display: block;
     position: relative;
@@ -478,6 +541,21 @@ body::-webkit-scrollbar-thumb:active {
     text-align: right !important;
 }
 
+
+/* Mobile View */
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    .code {
+        width: 300px;
+    }
+}
+
+/* Other View */
+@media screen and (min-width: 64px) and (max-width: 320px) {
+    .code {
+        width: 300px;
+    }
+}
+
 .email {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
@@ -485,6 +563,7 @@ body::-webkit-scrollbar-thumb:active {
     border: 3px solid #efefef;
     /* border: 3px solid #28a4ec; */
     border-radius: 5px;
+    width: auto;
     padding: 10px 20px;
     margin: 10px;
     transition: all 0.3s ease;
@@ -511,6 +590,7 @@ body::-webkit-scrollbar-thumb:active {
     color: #ffffff;
     border: 3px solid #efefef;
     border-radius: 5px;
+    width: auto;
     padding: 10px 20px;
     margin: 10px;
     transition: all 0.3s ease;
@@ -553,6 +633,46 @@ body::-webkit-scrollbar-thumb:active {
 
 .space {
     padding-bottom: 2px;
+}
+
+/* Mobile View */
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    .email {
+        width: auto;
+        padding: 10px 10px;
+        margin: 5px;
+    }
+    .password {
+        width: auto;
+        padding: 10px 10px;
+        margin: 5px;
+    }
+
+    .primary-btn {
+        margin: 5px;
+    }
+
+    .space {}
+}
+
+/* Other View */
+@media screen and (min-width: 64px) and (max-width: 320px) {
+    .email {
+        width: auto;
+        padding: 10px 10px;
+        margin: 5px;
+    }
+    .password {
+        width: auto;
+        padding: 10px 10px;
+        margin: 5px;
+    }
+
+    .primary-btn {
+        margin: 5px;
+    }
+
+    .space {}
 }
 
 .material-icons.md-18 {
