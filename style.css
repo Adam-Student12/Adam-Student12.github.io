@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     /* background-color: #10101045; */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+    /* https://coolors.co/954f2a */
+    /* https://rgbacolorpicker.com/ */
 }
 
 html, body {
