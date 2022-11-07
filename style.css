@@ -142,6 +142,12 @@ html {
     transition: all 0.3s;
 }
 
+iframe {
+    max-width: 100%;
+    width: 560px;
+    height: 315px;
+}
+
 /* Tablet View */
 @media screen and (min-width: 748px) and (max-width: 1024px) {
     .navbar {
@@ -201,6 +207,12 @@ html {
         box-shadow: 0 0 0 4px #5a5a5a99;
         transform: scale(0.9);
         transition: all 0.3s;
+    }
+
+    iframe {
+        max-width: 100%;
+        width: 360px;
+        height: 215px;
     }
 }
 
@@ -264,6 +276,12 @@ html {
         transform: scale(0.9);
         transition: all 0.3s;
     }
+
+    iframe {
+        max-width: 100%;
+        width: 360px;
+        height: 215px;
+    }
 }
 
 
@@ -326,6 +344,12 @@ html {
         box-shadow: 0 0 0 4px #5a5a5a99;
         transform: scale(0.9);
         transition: all 0.3s;
+    }
+
+    iframe {
+        max-width: 100%;
+        width: 360px;
+        height: 215px;
     }
 }
 
