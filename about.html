@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>LearnCoding</title>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
+        <meta name="content-type" content="text/html; charset=UTF-8" />
+        <meta name="charset" content="UTF-8" />
+        <meta name="theme-color" content="#4169E1" />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    </head>
+    <body>
+        <div class="navbar" id="navbar">
+            <div><a class="logo" href="./index.html">LearnCoding</a></div>
+            <span class="icon material-icons md-1-rem hidden-from-desktop" id="navicon">menu</span>
+        </div>
+        <div class="nav-container" id="navmenu">
+            <a href="./resources.html" class="nav-link link"><span>Resources</span></a>
+            <a href="./videos.html" class="nav-link link"><span>Videos</span></a>
+            <a href="./about.html" class="nav-link link"><span>About</span></a>
+        </div>
+        <header class="header">
+            <h2>About me.</h2>
+        </header>
+        <div class="main">
+            <p text-align="left">You can call me Adam. I love making website designs!</p>
+            
+            <button class="primary-btn" onclick="history.go(-1)">Go back</button>
+        </div>
+        <footer class="footer">
+            <p>Interested? Okay, sign up NOW!</p>
+            <form action="/" method="post">
+                <input type="email" placeholder="Email" class="email" required />
+                <input type="password" placeholder="Password" class="password" autocomplete="current-password" required />
+                <button class="primary-btn" type="submit">Submit</button>
+            </form>
+            <div>Made with ❤ by Adam</div>
+        </footer>
 
+        <script src="./script.js"></script>
+    </body>
+</html>
