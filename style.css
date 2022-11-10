@@ -9,6 +9,7 @@
     /* https://coolors.co/954f2a */
     /* https://rgbacolorpicker.com/ */
     /* https://htmlcolorcodes.com/color-picker/ */
+    /* https://colorpicker.me/ */
 }
 
 html, body {
@@ -437,6 +438,14 @@ p {
 a {
     text-decoration: none !important;
 }
+
+::selection {
+    /* background-color: #0099FF99; */
+    /* background-color: #264EFF99; */
+    background-color: #4B6CFF99;
+    color: inherit;
+}
+
 [display="block"] {
     display: block;
 }
