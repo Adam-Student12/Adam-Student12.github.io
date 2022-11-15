@@ -677,6 +677,28 @@ body::-webkit-scrollbar-thumb:active {
     box-shadow: 0 0 0 4px #4169E199;
     transition: all 0.3s:
 }
+.back-arrow {
+    /*display: none;
+    opacity: 0;*/
+    transition: all 0.3s:
+}
+.primary-btn:hover .back-arrow::after {
+    content: ">";
+    display: inline-block;
+    animation: show-arrow 0.3s;
+    transition: all 0.3s:
+}
+
+@keyframes show-arrow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        padding-right: 2.5px;
+        margin-left: 2.5px;
+    }
+}
 
 .space {
     padding-bottom: 2px;
