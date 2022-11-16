@@ -451,6 +451,10 @@ a {
     color: currentcolor;
 }
 
+.text-shadow {
+    text-shadow: 1px 1px #ffffff;
+}
+
 [display="block"] {
     display: block;
 }
