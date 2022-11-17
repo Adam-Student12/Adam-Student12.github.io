@@ -710,6 +710,28 @@ body::-webkit-scrollbar-thumb:active {
     border-radius: 5em / 5em !important;
 } */
 
+.a-link {
+    color: #0091FF;
+    
+    transition: all 0.3s;
+}
+.a-link:hover {
+    color: #077BD3;
+    /* font-weight: 600; */
+    transition: all 0.3s:
+}
+/* .a-link:hover . {
+    display: inline-block;
+    animation: ok 0.3s;
+    transition: all 0.3s:
+} */
+.a-link:hover .gray-background-link::after {
+    border: 0;
+    border-radius: 4px;
+    padding: 1em;
+    background-color: #919191;
+}
+
 .space {
     padding-bottom: 2px;
 }
