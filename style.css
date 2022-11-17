@@ -712,7 +712,6 @@ body::-webkit-scrollbar-thumb:active {
 
 .a-link {
     color: #0091FF;
-    
     transition: all 0.3s;
 }
 .a-link:hover {
@@ -728,8 +727,8 @@ body::-webkit-scrollbar-thumb:active {
 .a-link:hover .gray-background-link::after {
     border: 0;
     border-radius: 4px;
-    padding: 1em;
-    background-color: #919191;
+    padding: 0.05em 0.25em;
+    background-color: #91919199;
 }
 
 .space {
