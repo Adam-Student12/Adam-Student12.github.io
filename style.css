@@ -624,6 +624,7 @@ body::-webkit-scrollbar-thumb:active {
 }
 .email:focus-within {
     border: 3px solid #ff9b00;
+    /* border: 3px solid #00C8FF; */
     transition: all 0.3s ease;
 }
 .email:hover {
@@ -652,6 +653,7 @@ body::-webkit-scrollbar-thumb:active {
 }
 .password:focus-within {
     border: 3px solid #ff9b00;
+    /* border: 3px solid #00C8FF; */
     transition: all 0.3s ease;
 }
 .password:hover {
@@ -699,10 +701,14 @@ body::-webkit-scrollbar-thumb:active {
     }
     100% {
         opacity: 1;
-        padding-right: 2.5px;
-        margin-left: 2.5px;
+        /* padding-right: 2.5px;
+        margin-left: 2.5px; */
     }
 }
+
+/* .border-radius {
+    border-radius: 5em / 5em !important;
+} */
 
 .space {
     padding-bottom: 2px;
