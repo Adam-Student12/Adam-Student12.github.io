@@ -394,6 +394,9 @@ iframe {
     line-height: 1.5em;
     color: #5a5b5b;
 }
+.main a {
+    line-height: 1.5em;
+}
 /* .main button {
     position: relative;
     text-align: left;
