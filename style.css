@@ -724,11 +724,25 @@ body::-webkit-scrollbar-thumb:active {
     animation: ok 0.3s;
     transition: all 0.3s:
 } */
+.gray-background-link {
+    transition: all 0.3s:
+}
 .a-link:hover .gray-background-link::after {
+    content: "(" attr(link) ")";
     border: 0;
     border-radius: 4px;
-    padding: 0.05em 0.25em;
-    background-color: #91919199;
+    /* padding: 0.05em 0.25em; */
+    background-color: #91919145;
+}
+.gray-background-link-text {
+    transition: all 0.3s:
+}
+.gray-background-link-text::after {
+    content: "" attr(link-text);
+    border: 0;
+    border-radius: 4px;
+    /* padding: 0.05em 0.25em; */
+    background-color: #91919145;
 }
 
 .space {
