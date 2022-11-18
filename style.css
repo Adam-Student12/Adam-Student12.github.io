@@ -388,6 +388,7 @@ iframe {
 }
 .main p {
     text-align: center;
+    line-height: 1.5em;
     color: #5a5b5b;
 }
 /* .main button {
