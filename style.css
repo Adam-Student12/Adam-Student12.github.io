@@ -376,6 +376,9 @@ iframe {
     text-align: center;
     /* margin-top: 20px; */
 }
+.header p {
+    color: #efefef;
+}
 
 .main {
     display: block;
@@ -386,7 +389,7 @@ iframe {
     padding: 10px;
     background-color: #efefef;
 }
-.main p {
+.main p :not(.line-number, .code, .text-shadow, a, span) {
     text-align: center;
     line-height: 1.5em;
     color: #5a5b5b;
@@ -406,6 +409,9 @@ iframe {
     padding: 20px;
     background-color: #3b3c3c;
     z-index: 3;
+}
+.footer p {
+    color: #efefef;
 }
 .footer input {
     position: relative;
@@ -439,7 +445,8 @@ h6 {
 }
 p {
     font-size: 1.2rem;
-    color: #efefef;
+    /* color: #efefef; */
+    color: #5a5b5b;
 }
 a {
     text-decoration: none !important;
@@ -467,12 +474,13 @@ a {
     position: relative;
     float: left;
     /* clear: left; */
+    text-align: center;
     background-color: #f1f1f1;
     /* height: 100%;
     padding: 2px 6px; */
     margin-right: 5px;
     font-size: 0.8rem;
-    color: #efefef;
+    color: #5a5b5b;
     user-select: none;
 }
 /* .line-number::after {
