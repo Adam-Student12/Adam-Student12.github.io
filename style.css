@@ -741,16 +741,24 @@ body::-webkit-scrollbar-thumb:active {
 }
 .a-link:hover .gray-background-link::after {
     content: "(" attr(link) ")";
+    display: inline-block;
+    position: absolute;
+    /* transform: translate(-5em, 1.5em); */
+    word-break: break-word;
     border: 0;
     border-radius: 4px;
     /* padding: 0.05em 0.25em; */
-    background-color: #91919145;
+    /* background-color: #91919145; */
+    /* background-color: #f5f5f5; */
+    background-color: #d6d6d6;
+    z-index: 10;
 }
 .gray-background-link-text {
     transition: all 0.3s:
 }
 .gray-background-link-text::after {
     content: "" attr(link-text);
+    position: relative;
     border: 0;
     border-radius: 4px;
     /* padding: 0.05em 0.25em; */
