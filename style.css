@@ -574,11 +574,14 @@ body::-webkit-scrollbar-thumb:active {
 [highlight-color="dark-blue"] {
     color: #222281;
 }
-[highlight-color="royalblue"] {
+[highlight-color="royal-blue"] {
     color: #5074e0;
 }
+[highlight-color="dark-green"] {
+    color: #3e8a1a;
+}
 [highlight-color="green"] {
-    color: ;
+    color: #49b118;
 }
 [highlight-color="gray"] {
     color: #868686;
@@ -764,6 +767,18 @@ body::-webkit-scrollbar-thumb:active {
     /* padding: 0.05em 0.25em; */
     background-color: #91919145;
 }
+
+/* hr {
+    display: block;
+}
+hr::after {
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 0 solid gray;
+    background-color: gray;
+    color: gray;
+} */
 
 .space {
     padding-bottom: 2px;
