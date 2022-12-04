@@ -506,6 +506,7 @@ a {
     overflow: auto;
     y-overflow: hidden;
     x-overflow: scroll;
+    font-family: 1.2rem "Rubik", monospace;
     background-color: #dadada/*#b3b1b3*/;
     padding: 6px 8px;
     border: 1.6px solid #9b9b9b;
@@ -683,6 +684,7 @@ body::-webkit-scrollbar-thumb:active {
 .primary-btn {
     background-color: #4169E1;
     color: #ffffff;
+    font-family: "Rubik", san-serif;
     padding: 10px 10px;
     margin: 10px;
     border: 0;
