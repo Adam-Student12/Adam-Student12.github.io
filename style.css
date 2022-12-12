@@ -9,10 +9,6 @@
     /* filter: sepia(50%); */
     /* filter: grayscale(100%); */
     /* filter: saturate(0%); */
-    /* https://coolors.co/954f2a */
-    /* https://rgbacolorpicker.com/ */
-    /* https://htmlcolorcodes.com/color-picker/ */
-    /* https://colorpicker.me/ */
 }
 
 html, body {
@@ -20,11 +16,9 @@ html, body {
     padding: 0;
     border: 0;
     width: 100vw;
-    /* height: 100%; */
     height: 100vh;
     font-family: "Rubik", san-serif;
     overflow: auto;
-    /* x-overflow: hidden; */
     x-overflow: scroll;
     y-overflow: scroll;
 }
@@ -33,16 +27,11 @@ html {
 }
 
 .navbar {
-    /* display: inline-block; */
     display: flex;
     position: sticky;
     top: 0;
     white-space: nowrap;
     background-color: #acabb0;
-    /* -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px); */
-    /* margin: 0 auto;
-    padding: 0 20px; */
     width: 100%;
     max-height: 50px;
     height: 50px;
@@ -52,17 +41,11 @@ html {
     user-select: none;
 }
 .navbar div .logo {
-    /* display: block; */
     display: inline-block;
     position: relative;
     left: 0;
-    /* float: left; */
-    /* white-space: nowrap;
-    flex-shrink: 0; */
     /* background-color: #cacacc;*/
     color: #ffffff;
-    /* width: auto; */
-    /* width: 100%; */
     width: auto;
     height: 100%;
     font-size: 1.5rem;
@@ -74,50 +57,17 @@ html {
     color: #3e3f3f;
     transition: all 0.3s;
 }
-/* .nav-container {
-    display: block;
-    position: relative;
-    float: right;
-    /* clear: right; /
-    background-color: #cacacc;
-    color: inherit;
-    width: auto;
-    height: 100%;
-    padding: 10px;
-    /* margin-right: 10px; /
-    text-decoration: none;
-    z-index: 6;
-} */
-/* .navbar .nav-link {
-    font-size: 1.1rem;
-} */
-/* .navbar .nav-link span {
-    margin-top: 5px !important;
-} */
-/* .navbar .link {
-    position: relative;
-    color: #0a6df5;
-    text-decoration: none;
-    margin-top: -5px !important;
-} */
 .nav-container {
-    /* display: block;
-    position: relative; */
     display: inline-block;
-    /* position: relative */
     position: absolute;
     top: 0;
     right: 0;
-    /* float: right; */
-    /* clear: right; */
     background-color: #cacacc;
     color: inherit;
     width: auto;
-    /* height: 100%; */
     max-height: 50px;
     height: 50px;
     padding: 10px;
-    /* margin-right: 10px; */
     text-decoration: none;
     user-select: none;
     z-index: 50;
@@ -127,7 +77,6 @@ html {
     display: inline-block;
     font-size: 1.1rem;
     font-weight: 650;
-    /* padding: 10px; */
     padding: 0 10px;
     margin-top: 5px;
     text-align: center;
@@ -137,7 +86,6 @@ html {
     position: relative;
     color: #0a6df5;
     text-decoration: none;
-    /* margin-top: -5px !important; */
     transition: all 0.3s;
 }
 .nav-container .link:hover {
@@ -169,12 +117,9 @@ iframe {
     /* .navbar div .logo {} */
     .nav-container {
         display: block;
-        /* position: absolute; */
         position: absolute;
         top: 0;
-        /* top: 50px; */
         width: 100%;
-        /* max-height: 140px; */
         padding-top: 40px;
         max-height: 50px;
         height: 200px;
@@ -185,9 +130,7 @@ iframe {
         transition: all 0.3s;
     }
     .nav-container .nav-link {
-        /* display: block; */
         width: 100%;
-        /* text-align: center; */
         margin-top: 10px;
         margin-bottom: 10px;
         transition: all 0.3s;
@@ -201,7 +144,6 @@ iframe {
         display: inline-block !important;
         position: absolute;
         right: 10px;
-        /* right: 20px; */
         margin-top: 9px;
         background-color: #c7cbcc;
         color: #5a5a5a;
@@ -237,12 +179,9 @@ iframe {
     /* .navbar div .logo {} */
     .nav-container {
         display: block;
-        /* position: absolute; */
         position: absolute;
         top: 0;
-        /* top: 50px; */
         width: 100%;
-        /* max-height: 140px; */
         padding-top: 40px;
         max-height: 50px;
         height: 200px;
@@ -253,9 +192,7 @@ iframe {
         transition: all 0.3s;
     }
     .nav-container .nav-link {
-        /* display: block; */
         width: 100%;
-        /* text-align: center; */
         margin-top: 10px;
         margin-bottom: 10px;
         transition: all 0.3s;
@@ -269,7 +206,6 @@ iframe {
         display: inline-block !important;
         position: absolute;
         right: 10px;
-        /* right: 20px; */
         margin-top: 9px;
         background-color: #c7cbcc;
         color: #5a5a5a;
@@ -306,12 +242,9 @@ iframe {
     /* .navbar div .logo {} */
     .nav-container {
         display: block;
-        /* position: absolute; */
         position: absolute;
         top: 0;
-        /* top: 50px; */
         width: 100%;
-        /* max-height: 140px; */
         padding-top: 40px;
         max-height: 50px;
         height: 200px;
@@ -322,9 +255,7 @@ iframe {
         transition: all 0.3s;
     }
     .nav-container .nav-link {
-        /* display: block; */
         width: 100%;
-        /* text-align: center; */
         margin-top: 10px;
         margin-bottom: 10px;
         transition: all 0.3s;
@@ -338,7 +269,6 @@ iframe {
         display: inline-block !important;
         position: absolute;
         right: 10px;
-        /* right: 20px; */
         margin-top: 9px;
         background-color: #c7cbcc;
         color: #5a5a5a;
@@ -374,7 +304,6 @@ iframe {
 }
 .header h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    /* margin-top: 20px; */
 }
 .header p {
     color: #efefef;
@@ -385,7 +314,6 @@ iframe {
     position: relative;
     width: 100%;
     height: auto;
-    /* height: 100%; */
     padding: 10px;
     background-color: #efefef;
 }
@@ -494,13 +422,7 @@ a {
     position: relative;
     overflow-wrap: break-word;
     flex-wrap: wrap;
-    /* word-break: break-word; */
     word-break: break-all;
-    /* white-space: normal; */
-    /* white-space: nowrap;
-    text-overflow: ellipsis;
-    hyphens: auto; */
-    /* width: auto; */
     max-width: 100%;
     width: 350px;
     overflow: auto;
@@ -701,8 +623,8 @@ body::-webkit-scrollbar-thumb:active {
     transition: all 0.3s:
 }
 .back-arrow {
-    /*display: none;
-    opacity: 0;*/
+    /* display: none;
+    opacity: 0; */
     transition: all 0.3s:
 }
 .primary-btn:hover .back-arrow::after {
@@ -773,11 +695,12 @@ body::-webkit-scrollbar-thumb:active {
 /* hr {
     display: block;
 }
-hr::after {
+hr::after, hr::before {
+    content: "";
     display: block;
     width: 100%;
-    height: 1px;
-    border: 0 solid gray;
+    height: 0.2px;
+    border: 1px solid gray;
     background-color: gray;
     color: gray;
 } */
