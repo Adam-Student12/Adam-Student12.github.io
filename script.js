@@ -20,3 +20,8 @@ navicon.onclick = function (e) {
         document.getElementById("navmenu").style.maxHeight = "200px";
     }
 }
+
+// A friendly welcome message
+setTimeout(function a() {
+    alert("🡪 Hi there! Welcome to my website.");
+}, 5000);
