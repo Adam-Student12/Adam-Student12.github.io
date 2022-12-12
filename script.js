@@ -22,6 +22,6 @@ navicon.onclick = function (e) {
 }
 
 // A friendly welcome message
-setTimeout(function a() {
+/* setTimeout(function a() {
     alert("🡪 Hi there! Welcome to my website.");
-}, 5000);
+}, 5000); */
