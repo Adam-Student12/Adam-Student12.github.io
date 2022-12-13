@@ -395,6 +395,22 @@ a {
     text-shadow: 0.5px 0.5px #ffffff;
 } */
 
+.vertical-line {
+    display: inline;
+    margin-right: 14px;
+    background-color: #e5e5e5;
+    color: #e5e5e5;
+    font-weight: 500;
+    padding: 8px 1px;
+    width: 2px;
+    height: 25px;
+    user-select: none;
+}
+/* .vertical-line::before {
+    content: "|";
+    display: inline;
+} */
+
 [display="block"] {
     display: block;
 }
@@ -602,6 +618,26 @@ body::-webkit-scrollbar-thumb:active {
 }
 .password:focus {
     outline: none;
+}
+
+.signup-btn {
+    background-color: #4169E1;
+    color: #ffffff;
+    font-family: "Rubik", san-serif;
+    padding: 8px 6px;
+    transform: translate(-0px, -2px);
+    border: 0;
+    border-radius: 4px;
+    user-select: none;
+    transition: all 0.3s:
+}
+.signup-btn:hover {
+    background-color: #5169E1;
+    transition: all 0.3s:
+}
+.signup-btn:focus {
+    box-shadow: 0 0 0 4px #4169E199;
+    transition: all 0.3s:
 }
 
 .primary-btn {
