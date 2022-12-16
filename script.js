@@ -8,16 +8,16 @@ document.getElementById("navmenu").style.maxHeight = "50px";
 navicon.onclick = function (e) {
     if (document.getElementById("navicon").innerHTMl === "close" && document.getElementById("navmenu").style.maxHeight === "50px") {
         document.getElementById("navicon").innerHTML = "close";
-        document.getElementById("navmenu").style.maxHeight = "200px";
-    } else if (document.getElementById("navicon").innerHTMl === "close" && document.getElementById("navmenu").style.maxHeight === "200px") {
+        document.getElementById("navmenu").style.maxHeight = "275px";
+    } else if (document.getElementById("navicon").innerHTMl === "close" && document.getElementById("navmenu").style.maxHeight === "275px") {
         document.getElementById("navicon").innerHTML = "menu";
         document.getElementById("navmenu").style.maxHeight = "50px";
     } else if (document.getElementById("navicon").innerHTMl === "menu" && document.getElementById("navmenu").style.maxHeight === "50px") {
         document.getElementById("navicon").innerHTML = "close";
-        document.getElementById("navmenu").style.maxHeight = "200px";
+        document.getElementById("navmenu").style.maxHeight = "275px";
     } else {
         document.getElementById("navicon").innerHTML = "close";
-        document.getElementById("navmenu").style.maxHeight = "200px";
+        document.getElementById("navmenu").style.maxHeight = "275px";
     }
 }
 
