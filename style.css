@@ -44,7 +44,7 @@ html {
     display: inline-block;
     position: relative;
     left: 0;
-    /* background-color: #cacacc;*/
+    /* background-color: #cacacc; */
     color: #ffffff;
     width: auto;
     height: 100%;
@@ -794,18 +794,36 @@ body::-webkit-scrollbar-thumb:active {
     background-color: #91919145;
 }
 
-/* hr {
-    display: block;
-}
-hr::after, hr::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 0.2px;
-    border: 1px solid gray;
+.line-100 {
+    display: inline-block;
+    position: relative;
+    width: 8px;
+    height: 8px;
+    margin: 5px;
+    border-radius: 50%;
     background-color: gray;
     color: gray;
+}
+/* .line-100::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    transform: translate(0, -15px);
+    width: 100px;
+    height: 8px;
+    margin: 15px;
+    background-color: gray;
 } */
+.line-100::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    transform: translate(0, -15px);
+    width: 100px;
+    height: 8px;
+    margin: 15px;
+    background-color: gray;
+}
 
 .space {
     padding-bottom: 2px;
