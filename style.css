@@ -417,6 +417,7 @@ iframe {
     height: auto;
     padding: 10px;
     background-color: #efefef;
+    /* animation: a 0.5s; */
 }
 .main p :not(.line-number, .code, .text-shadow, a, span) {
     text-align: center;
@@ -430,6 +431,17 @@ iframe {
     position: relative;
     text-align: left;
     justify-content: left;
+} */
+
+/* @keyframes a {
+    0% {
+        transform: translate(-250px, -0);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(-0px, -0);
+        opacity: 1;
+    }
 } */
 
 .footer {
