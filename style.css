@@ -416,6 +416,7 @@ iframe {
     width: 100%;
     height: auto;
     padding: 10px;
+    /* padding: 10px 10px 1000px 10px; */
     background-color: #efefef;
     /* animation: a 0.5s; */
 }
