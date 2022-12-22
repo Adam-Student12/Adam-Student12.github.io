@@ -572,6 +572,11 @@ a {
     border: 1px solid #4169E1;
 }
 
+/* .code:hover {
+    transform: scale(1.025);
+    transition: all 0.4s left transform ease-out;
+} */
+
 body::-webkit-scrollbar {
     display: none;
     visibility: hidden;
