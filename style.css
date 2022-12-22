@@ -33,8 +33,8 @@ html {
     white-space: nowrap;
     background-color: #acabb0;
     width: 100%;
-    max-height: 50px;
     height: 50px;
+    max-height: 50px;
     transition: all 0.3s;
     z-index: 25;
     overflow: hidden;
@@ -66,8 +66,8 @@ html {
     border-radius: 10px 0 0 10px;
     color: inherit;
     width: auto;
-    max-height: 50px;
     height: 50px;
+    max-height: 50px;
     padding: 10px;
     text-decoration: none;
     user-select: none;
@@ -138,8 +138,8 @@ html {
 }
 
 iframe {
-    max-width: 100%;
     width: 560px;
+    max-width: 100%;
     height: 315px;
 }
 
@@ -153,8 +153,8 @@ iframe {
 /* Tablet View */
 @media screen and (min-width: 748px) and (max-width: 1024px) {
     .navbar {
-        max-height: 50px;
         height: 50px;
+        max-height: 50px;
         z-index: 25;
         transition: all 0.3s;
     }
@@ -166,8 +166,8 @@ iframe {
         border-radius: 0 0 10px 10px;
         width: 100%;
         padding-top: 40px;
-        max-height: 50px;
         height: 275px;
+        max-height: 50px;
         z-index: 10;
         overflow: hidden;
         overflow-x: hidden;
@@ -221,8 +221,8 @@ iframe {
     }
 
     iframe {
-        max-width: 100%;
         width: 360px;
+        max-width: 100%;
         height: 215px;
     }
 
@@ -234,8 +234,8 @@ iframe {
 /* Mobile View */
 @media screen and (min-width: 320px) and (max-width: 640px) {
     .navbar {
-        max-height: 50px;
         height: 50px;
+        max-height: 50px;
         z-index: 25;
         transition: all 0.3s;
     }
@@ -247,8 +247,8 @@ iframe {
         border-radius: 0 0 10px 10px;
         width: 100%;
         padding-top: 40px;
-        max-height: 50px;
         height: 275px;
+        max-height: 50px;
         z-index: 10;
         overflow: hidden;
         overflow-x: hidden;
@@ -302,8 +302,8 @@ iframe {
     }
 
     iframe {
-        max-width: 100%;
         width: 360px;
+        max-width: 100%;
         height: 215px;
     }
 
@@ -316,8 +316,8 @@ iframe {
 /* Other View */
 @media screen and (min-width: 32px) and (max-width: 320px) {
     .navbar {
-        max-height: 50px;
         height: 50px;
+        max-height: 50px;
         z-index: 25;
         transition: all 0.3s;
     }
@@ -329,8 +329,8 @@ iframe {
         border-radius: 0 0 10px 10px;
         width: 100%;
         padding-top: 40px;
-        max-height: 50px;
         height: 275px;
+        max-height: 50px;
         z-index: 10;
         overflow: hidden;
         overflow-x: hidden;
@@ -384,8 +384,8 @@ iframe {
     }
 
     iframe {
-        max-width: 100%;
         width: 360px;
+        max-width: 100%;
         height: 215px;
     }
 
@@ -451,8 +451,7 @@ iframe {
 }
 .footer div {
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px 0 5px 0;
     font-size: 1.2rem;
     color: #ffffff;
 }
@@ -524,8 +523,8 @@ a {
     overflow-wrap: break-word;
     flex-wrap: wrap;
     word-break: break-all;
-    max-width: 100%;
     width: 350px;
+    max-width: 100%;
     overflow: auto;
     y-overflow: hidden;
     x-overflow: scroll;
@@ -632,16 +631,16 @@ body::-webkit-scrollbar-thumb:active {
 /* Mobile View */
 @media screen and (min-width: 320px) and (max-width: 640px) {
     .code {
-        max-width: 100%;
         width: 300px;
+        max-width: 100%;
     }
 }
 
 /* Other View */
 @media screen and (min-width: 32px) and (max-width: 320px) {
     .code {
-        max-width: 100%;
         width: 300px;
+        max-width: 100%;
     }
 }
 
@@ -652,8 +651,8 @@ body::-webkit-scrollbar-thumb:active {
     border: 3px solid #efefef;
     /* border: 3px solid #28a4ec; */
     border-radius: 5px;
-    max-width: 100%;
     width: auto;
+    max-width: 100%;
     padding: 10px 20px;
     margin: 10px;
     transition: all 0.3s ease;
@@ -681,8 +680,8 @@ body::-webkit-scrollbar-thumb:active {
     color: #ffffff;
     border: 3px solid #efefef;
     border-radius: 5px;
-    max-width: 100%;
     width: auto;
+    max-width: 100%;
     padding: 10px 20px;
     margin: 10px;
     transition: all 0.3s ease;
@@ -794,32 +793,60 @@ body::-webkit-scrollbar-thumb:active {
     background-color: #91919145;
 }
 
-.line-100 {
+.circle {
     display: inline-block;
     position: relative;
     width: 8px;
     height: 8px;
-    margin: 5px;
+    margin: 0 15px 0 15px;
     border-radius: 50%;
     background-color: gray;
     color: gray;
 }
-/* .line-100::before {
+.rectangle {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    height: 8px;
+    margin: 0;
+    background-color: gray;
+    transition: all 0.3s ease-out;
+}
+
+.line-250 {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 5px);
+    width: 100%;
+    max-width: 8px;
+    height: 8px;
+    margin: 0/*5px*/;
+    border-radius: 50%;
+    background-color: gray;
+    color: gray;
+}
+.line-250::before {
     content: "";
     display: inline-block;
     position: absolute;
-    transform: translate(0, -15px);
-    width: 100px;
+    transform: translate(-0, -15px);
+    left: 0;
+    width: 100%;
+    max-width: 250px;
     height: 8px;
     margin: 15px;
     background-color: gray;
-} */
-.line-100::after {
+}
+.line-250::after {
     content: "";
     display: inline-block;
     position: absolute;
-    transform: translate(0, -15px);
-    width: 100px;
+    transform: translate(-0, -15px);
+    right: 0;
+    width: 100%;
+    max-width: 250px;
     height: 8px;
     margin: 15px;
     background-color: gray;
@@ -829,17 +856,33 @@ body::-webkit-scrollbar-thumb:active {
     padding-bottom: 2px;
 }
 
+/* Tablet View */
+@media screen and (min-width: 748px) and (max-width: 1024px) {
+    .rectangle {
+        width: 100%;
+        max-width: 150px;\
+        transition: all 0.3s ease-out;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 748px) {
+    .rectangle {
+        width: 100%;
+        max-width: 150px;
+        transition: all 0.3s ease-out;
+    }
+}
+
 /* Mobile View */
 @media screen and (min-width: 320px) and (max-width: 640px) {
     .email {
-        max-width: 100%;
         width: auto;
+        max-width: 100%;
         padding: 10px 10px;
         margin: 5px;
     }
     .password {
-        max-width: 100%;
         width: auto;
+        max-width: 100%;
         padding: 10px 10px;
         margin: 5px;
     }
@@ -847,6 +890,12 @@ body::-webkit-scrollbar-thumb:active {
     .primary-btn {
         margin: 5px;
         transition: margin, all 0.3s ease-out;
+    }
+
+    .rectangle {
+        width: 100%;
+        max-width: 100px;
+        transition: all 0.3s ease-out;
     }
 
     .space {}
@@ -855,14 +904,14 @@ body::-webkit-scrollbar-thumb:active {
 /* Other View */
 @media screen and (min-width: 32px) and (max-width: 320px) {
     .email {
-        max-width: 100%;
         width: auto;
+        max-width: 100%;
         padding: 10px 10px;
         margin: 5px;
     }
     .password {
-        max-width: 100%;
         width: auto;
+        max-width: 100%;
         padding: 10px 10px;
         margin: 5px;
     }
@@ -870,6 +919,12 @@ body::-webkit-scrollbar-thumb:active {
     .primary-btn {
         margin: 5px;
         transition: margin, all 0.3s ease-out;
+    }
+
+    .rectangle {
+        width: 100%;
+        max-width: 100px;
+        transition: all 0.3s ease-out;
     }
 
     .space {}
