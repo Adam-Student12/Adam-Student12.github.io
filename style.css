@@ -541,7 +541,7 @@ a {
     overflow: auto;
     overflow-x: scroll;
     overflow-y: hidden;
-    font-family: "Rubik", monospace;
+    font-family: /*"Rubik", */monospace;
     font-size: 0.8rem;
     background-color: #dadada/*#b3b1b3*/;
     padding: 6px 8px;
