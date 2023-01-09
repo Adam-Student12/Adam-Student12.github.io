@@ -19,8 +19,8 @@ html, body {
     height: 100vh;
     font-family: "Rubik", san-serif;
     overflow: auto;
-    x-overflow: scroll;
-    y-overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
 }
@@ -532,17 +532,17 @@ a {
     content: ".";
 } */
 .code {
-    display: inline-block;
+    display: inline-block/*table*//*table-cell*/;
     position: relative;
     overflow-wrap: break-word;
-    flex-wrap: wrap;
     word-break: break-all;
     width: 350px;
     max-width: 100%;
     overflow: auto;
-    y-overflow: hidden;
-    x-overflow: scroll;
-    font-family: 1.2rem "Rubik", monospace;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    font-family: "Rubik", monospace;
+    font-size: 0.8rem;
     background-color: #dadada/*#b3b1b3*/;
     padding: 6px 8px;
     border: 1.6px solid #9b9b9b;
@@ -652,6 +652,7 @@ body::-webkit-scrollbar-thumb:active {
     .code {
         width: 300px;
         max-width: 100%;
+        font-size: 0.8rem;
     }
 }
 
@@ -660,6 +661,7 @@ body::-webkit-scrollbar-thumb:active {
     .code {
         width: 300px;
         max-width: 100%;
+        font-size: 0.8rem;
     }
 }
 
