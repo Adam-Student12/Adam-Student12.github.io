@@ -21,6 +21,8 @@ html, body {
     overflow: auto;
     x-overflow: scroll;
     y-overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
 }
 html {
     scroll-behavior: smooth;
@@ -311,7 +313,6 @@ iframe {
         display: none;
     } */
 }
-
 
 /* Other View */
 @media screen and (min-width: 32px) and (max-width: 320px) {
