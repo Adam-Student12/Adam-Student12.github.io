@@ -560,6 +560,7 @@ a {
     background-color: #f1f1f1;
     border: 1px solid #9b9b9b;
     border-radius: 2px;
+    margin-right: -0.6px/*-1px*/;
 }
 .code::-webkit-scrollbar-thumb {
     background-color: #888888;
