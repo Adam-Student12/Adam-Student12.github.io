@@ -591,6 +591,7 @@ body::-webkit-scrollbar-track {
     background: #f1f1f1;
     border: 1px solid #9b9b9b;
     border-radius: 2px;
+    /* margin: 10px; */
 }
 body::-webkit-scrollbar-thumb {
     background: #888888;
